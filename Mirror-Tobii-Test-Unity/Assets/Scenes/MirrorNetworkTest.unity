@@ -255,8 +255,8 @@ MonoBehaviour:
   startOnHeadless: 1
   serverTickRate: 30
   showDebugMessages: 0
-  offlineScene: OfflineScene
-  onlineScene: InteractionExample
+  offlineScene: MirrorNetworkTest
+  onlineScene: EyeTrackingScene
   transport: {fileID: 1921531749}
   networkAddress: localhost
   maxConnections: 4

@@ -275,6 +275,8 @@ namespace Tobii.Research.Unity
 
         protected IEnumerator AutoConnectMonitoring()
         {
+            yield return new WaitForEndOfFrame();
+
             StartAutoConnectThread();
 
             while (true)
